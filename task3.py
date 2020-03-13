@@ -1,4 +1,4 @@
-inp = [str(i) for i in input('Имя и фамилия через пробел: ').split(' ')]
+inp = [str(i) for i in input('Имя и фамилия: ').split()]
 if 0 < len(inp) < 1000:
     for i in inp:
         def cap(name):
